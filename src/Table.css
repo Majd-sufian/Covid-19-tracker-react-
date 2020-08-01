@@ -17,3 +17,11 @@
 .table tr:nth-of-type(odd) {
   background-color: #f3f2f8;
 }
+
+.table__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #3282b8;
+  font-size: larger;
+}
