@@ -25,3 +25,8 @@
   color: #3282b8;
   font-size: larger;
 }
+
+.table__country__flags {
+  display: flex;
+  flex-direction: row;
+}

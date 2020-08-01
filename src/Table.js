@@ -11,9 +11,15 @@ function Table({ countries }) {
         <h4>Recovered</h4>
         <h4>Deaths</h4>
       </div>
+
       {countries.map((country) => (
         <tr>
-          <td>{country.country}</td>
+          <div className="table__country__flags">
+            <td>
+              <img src={country.countryInfo.flag} height="10px" />
+            </td>
+            <td>{country.country}</td>
+          </div>
           <td>
             <strong>{numeral(country.cases).format(0, 0)}</strong>
           </td>

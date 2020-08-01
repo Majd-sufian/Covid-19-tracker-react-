@@ -17,7 +17,11 @@ body {
 }
 
 .app__left {
-  flex: 0.9;
+  flex: 0.6;
+}
+
+.app__right {
+  flex: 0.3;
 }
 
 .app__graphTitle {
@@ -37,8 +41,31 @@ body {
   justify-content: space-between;
 }
 
+.app__images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.app__images img {
+  width: 900px;
+  margin: 10px;
+  height: 1000px;
+}
+
 @media (max-width: 990px) {
   .App {
     flex-direction: column;
   }
+
+  .app__images {
+    flex-direction: column;
+  }
+}
+
+.app__dropdown_countries {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
