@@ -12,8 +12,17 @@ body {
   padding: 20px;
 }
 
+.app__dropdown {
+  background-color: white;
+}
+
 .app__left {
   flex: 0.9;
+}
+
+.app__graphTitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .app__header {
